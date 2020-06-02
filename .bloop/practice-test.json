@@ -1,0 +1,110 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "practice-test",
+        "directory": "D:\\INTEC\\Temporal\\Practice_4",
+        "workspaceDir": "D:\\INTEC\\Temporal\\Practice_4",
+        "sources": [
+            "D:\\INTEC\\Temporal\\Practice_4\\src\\test\\scala-2.12",
+            "D:\\INTEC\\Temporal\\Practice_4\\src\\test\\scala",
+            "D:\\INTEC\\Temporal\\Practice_4\\src\\test\\java",
+            "D:\\INTEC\\Temporal\\Practice_4\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "practice"
+        ],
+        "classpath": [
+            "D:\\INTEC\\Temporal\\Practice_4\\.bloop\\practice\\scala-2.12\\classes",
+            "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.7\\scala-library-2.12.7.jar"
+        ],
+        "out": "D:\\INTEC\\Temporal\\Practice_4\\.bloop\\practice",
+        "classesDir": "D:\\INTEC\\Temporal\\Practice_4\\.bloop\\practice\\scala-2.12\\test-classes",
+        "resources": [
+            "D:\\INTEC\\Temporal\\Practice_4\\src\\test\\resources",
+            "D:\\INTEC\\Temporal\\Practice_4\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.7",
+            "options": [
+                
+            ],
+            "jars": [
+                "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.12.7\\scala-compiler-2.12.7.jar",
+                "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.7\\scala-library-2.12.7.jar",
+                "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.7\\scala-reflect-2.12.7.jar",
+                "D:\\INTEC\\OneDrive - INTEC\\Trimestre #8\\Tendencia en Desarrollo de Aplicaciones - Lab\\Practice_4\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar"
+            ],
+            "analysis": "D:\\INTEC\\Temporal\\Practice_4\\target\\streams\\test\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jre1.8.0_251",
+                "options": [
+                    "-Duser.dir=D:\\INTEC\\Temporal\\Practice_4"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
